@@ -3,5 +3,6 @@
 SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 CREATE TABLE [dbo].[Testing](
-	[id] [smallint] NOT NULL
+	[id] [smallint] NOT NULL,
+	[desc] [varchar](50) NULL
 ) ON [PRIMARY]
